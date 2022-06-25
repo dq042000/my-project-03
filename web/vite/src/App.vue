@@ -1,9 +1,13 @@
 <template>
     <componentA />
+    <componentB />
+    <componentC />
 </template>
 
 <script setup>
 import componentA from "./components/componentA.vue";
+import componentB from "./components/componentB.vue";
+import componentC from "./components/componentC.vue";
 </script>
 
 <style>
