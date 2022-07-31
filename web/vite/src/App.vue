@@ -1,7 +1,11 @@
 <template>
-    <router-view />
+    <div>
+        {{ message }}
+    </div>
 </template>
 
-<style>
-@import "./assets/css/reset.css";
-</style>
+<script setup lang="ts">
+const message: string = "我是真男人";
+</script>
+
+<style></style>
